@@ -60,11 +60,10 @@
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-    let limit = Math.floor(Math.random() * (10 - 3)) + 3;
     let count = 0;
     function moveBro() {
       count++
-      if (count >= limit) {
+      if (count >= 5) {
         window.location="./internetpositif.id";
       }
       buttonSearch = document.getElementById("button_seach");
